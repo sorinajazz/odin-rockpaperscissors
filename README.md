@@ -1,5 +1,5 @@
 ---
-permalink: /rps.html
+permalink: rps.html
 ---
 
 Rock Paper Scissors 
