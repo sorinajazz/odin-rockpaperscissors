@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(37, 37, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(201, 213, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 60px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 40px;
+    text-align: center;
+}
+
+.game{
+    background-color: rgb(151, 150, 208);
+    border: 10px white;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 30px 70px 30px 70px;
+}
+
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    padding: 20px 15px;
+    border: 5px rgb(38, 4, 97);
+    border-style: solid;
+    text-transform: uppercase;
+    border-radius: 5%;
+    background-color: rgb(165, 137, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 15px;
+}
+
+.results {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 20px;
+    display: inline;
+    
+}
+
+#user_score, #computer_score{
+    display: inline;
+}
+
+.result{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.extra{
+    font-size: 10px;
+}
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>    
+        <h1>Rock Paper Scissors</h1> 
+        <link rel="stylesheet" href="rps.css">   
+    </head>
+
+    <body>
+        <div class="game">
+        <h3>What do you choose?</h3>
+        <div id="user_input" class="buttons">
+            <input type="button" value="Rock" class="button">
+            <input type="button" value="Paper" class="button">
+            <input type="button" value="Scissors" class="button">
+        </div>
+
+        <div id="display_result" class="results">  
+            <br> 
+            User score: <div id="user_score"></div>
+            <br>
+            Computer score: <div id="computer_score"></div>
+            <br><br>
+            <div id="result" class="result">Good Luck!</div>
+            <br><br><br><br>
+            <p class="extra">*Rules are simple: Rock beats Scissors, Paper beats Rock and Scissors beats Paper.</p>
+            <p class="extra">**To reset the game or start again reload the page</p>
+        </div>
+        </div>
+
+        <script src="rps.js"></script>
+
+
+    </body>
+</html>
