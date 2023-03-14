@@ -1,1 +1,2 @@
-# odin-rockpaperscissors
+Rock Paper Scissors 
+- the game is made using javascript, css and html
